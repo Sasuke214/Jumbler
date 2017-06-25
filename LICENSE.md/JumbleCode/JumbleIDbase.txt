@@ -1,0 +1,43 @@
+ #include <stdio.h>
+    int main()
+    {
+        printf("%d ", 1);
+        goto l1;
+        printf("%d ", 2);
+        l1:goto l2;
+        printf("%d ", 3);
+        l2:printf("%d ", 4);
+   }
+
+
+*
+
+ #include <stdio.h>
+    int main()
+    {
+        printf("%d ", 1);
+        goto l1;
+        printf("%d ", 2);
+        l1:goto l2;
+        printf("%d ", 3);
+        l2:printf("%d ", 4);
+   }
+
+
+*
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int *ptr;
+    if(2>1)
+    {
+        int a=5;
+        cout<<a;
+        ptr=&a;
+        cout<<*ptr;
+    }
+    cout<<*ptr;
+    cout<<endl<<a;
+}
